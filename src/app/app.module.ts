@@ -10,6 +10,7 @@ import { PaymentPortalComponent } from './payment-portal/payment-portal.componen
 import { HomePageComponent } from './home-page/home-page.component';
 import { HelpCenterComponent } from './help-center/help-center.component';
 import { MyListComponent } from './my-list/my-list.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MyListComponent } from './my-list/my-list.component';
     PaymentPortalComponent,
     HomePageComponent,
     HelpCenterComponent,
-    MyListComponent
+    MyListComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
