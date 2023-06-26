@@ -11,6 +11,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { HelpCenterComponent } from './help-center/help-center.component';
 import { MyListComponent } from './my-list/my-list.component';
 import { MenuComponent } from './menu/menu.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MenuComponent } from './menu/menu.component';
     HomePageComponent,
     HelpCenterComponent,
     MyListComponent,
-    MenuComponent
+    MenuComponent,
+    ProductDetailsComponent
   ],
   imports: [
     BrowserModule,
