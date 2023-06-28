@@ -10,6 +10,8 @@ import { PaymentPortalComponent } from './payment-portal/payment-portal.componen
 import { HomePageComponent } from './home-page/home-page.component';
 import { HelpCenterComponent } from './help-center/help-center.component';
 import { MyListComponent } from './my-list/my-list.component';
+import { OurTradersComponent } from './our-traders/our-traders.component';
+import { TradersHomePageComponent } from './traders-home-page/traders-home-page.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { MyListComponent } from './my-list/my-list.component';
     PaymentPortalComponent,
     HomePageComponent,
     HelpCenterComponent,
-    MyListComponent
+    MyListComponent,
+    OurTradersComponent,
+    TradersHomePageComponent
   ],
   imports: [
     BrowserModule,
