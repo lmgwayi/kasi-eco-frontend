@@ -1,0 +1,14 @@
+h1 {
+    padding-right: 20px;
+    font-weight: bolder;
+}
+
+h5 {
+    font-weight: bolder;
+}
+
+h6 {
+    font-weight: bolder;
+    font-style: italic;
+    color: green;
+}
