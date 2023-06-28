@@ -11,5 +11,9 @@ import { Component } from '@angular/core';
 >>>>>>> mgwayimgwayi
 })
 export class AppComponent {
+<<<<<<< HEAD
   title = 'kasi-eCo';
+=======
+  title = 'Kasi-eCo';
+>>>>>>> liyaliya
 }

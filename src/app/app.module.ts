@@ -12,10 +12,15 @@ import { LoginComponent } from './login';
 import { PaymentPortalComponent } from './payment-portal/payment-portal.component';
 import { HelpCenterComponent } from './help-center/help-center.component';
 import { MyListComponent } from './my-list/my-list.component';
+<<<<<<< HEAD
 import { MenuComponent } from './menu/menu.component';
 import { RegisterComponent } from './register';
 import { HomeComponent } from './home/home.component';
 import { RouterModule, Routes } from '@angular/router';
+=======
+import { OurTradersComponent } from './our-traders/our-traders.component';
+import { TradersHomePageComponent } from './traders-home-page/traders-home-page.component';
+>>>>>>> liyaliya
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -29,9 +34,14 @@ const routes: Routes = [
     PaymentPortalComponent,
     HelpCenterComponent,
     MyListComponent,
+<<<<<<< HEAD
     MenuComponent,
     RegisterComponent,
     HomeComponent
+=======
+    OurTradersComponent,
+    TradersHomePageComponent
+>>>>>>> liyaliya
   ],
   imports: [
     BrowserModule,
