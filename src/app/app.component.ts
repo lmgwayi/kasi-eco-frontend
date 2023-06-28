@@ -11,5 +11,5 @@ import { Component } from '@angular/core';
 >>>>>>> mgwayimgwayi
 })
 export class AppComponent {
-  title = 'kasi-eco';
+  title = 'kasi-eCo';
 }
