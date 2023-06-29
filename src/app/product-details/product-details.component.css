@@ -1,4 +1,5 @@
 h1 {
+<<<<<<< HEAD
     padding-right: 20px;
     font-weight: bolder;
 }
@@ -12,3 +13,28 @@ h6 {
     font-style: italic;
     color: green;
 }
+=======
+    padding-left: 20%;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+    color: green;
+}
+
+h4 {
+    font-size: medium;
+    /* font-weight: lighter; */
+}
+ 
+.prod-img {
+    object-fit: cover;
+    padding-left: 5px;
+    padding-right: 5px;
+
+} 
+>>>>>>> mgwayimgwayimgwayi
