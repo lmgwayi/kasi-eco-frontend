@@ -12,19 +12,17 @@ import { LoginComponent } from './login';
 import { PaymentPortalComponent } from './payment-portal/payment-portal.component';
 import { HelpCenterComponent } from './help-center/help-center.component';
 import { MyListComponent } from './my-list/my-list.component';
-<<<<<<< HEAD
+
 import { MenuComponent } from './menu/menu.component';
-<<<<<<< HEAD
-import { RegisterComponent } from './register';
-import { HomeComponent } from './home/home.component';
-import { RouterModule, Routes } from '@angular/router';
-=======
 import { OurTradersComponent } from './our-traders/our-traders.component';
 import { TradersHomePageComponent } from './traders-home-page/traders-home-page.component';
->>>>>>> liyaliya
-=======
 import { ProductDetailsComponent } from './product-details/product-details.component';
->>>>>>> mgwayimgwayimgwayi
+
+import { ProfileComponent } from './profile/profile.component'
+import { RouterModule, Routes } from '@angular/router';
+import { RegisterComponent } from './register/register.component';
+import { HomeComponent } from './home/home.component';
+import { TradersDetailsComponent } from './traders-details/traders-details.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -38,19 +36,15 @@ const routes: Routes = [
     PaymentPortalComponent,
     HelpCenterComponent,
     MyListComponent,
-<<<<<<< HEAD
-<<<<<<< HEAD
     MenuComponent,
     RegisterComponent,
-    HomeComponent
-=======
+    HomeComponent,
     OurTradersComponent,
-    TradersHomePageComponent
->>>>>>> liyaliya
-=======
+    TradersHomePageComponent,
     MenuComponent,
-    ProductDetailsComponent
->>>>>>> mgwayimgwayimgwayi
+    ProductDetailsComponent,
+    ProfileComponent,
+    TradersDetailsComponent
   ],
   imports: [
     BrowserModule,
