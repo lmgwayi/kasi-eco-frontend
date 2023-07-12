@@ -1,0 +1,12 @@
+img {
+    width: 450px;
+    height: 450px;
+    object-fit: contain;
+}
+p {
+    width: 600px;
+}
+.intro {
+    display:flex;
+    justify-content: space-around;
+}
